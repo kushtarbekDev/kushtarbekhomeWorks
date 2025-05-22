@@ -8,6 +8,7 @@ import { Weather } from "./components/Weather";
 import { ChildButton } from "./task5/ChildButton";
 import { Counter } from "./task5/Counter";
 import { FilteredList } from "./task5/FilteredList";
+import { RegistrationForm } from "../task6/RegistrationForm";
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -40,6 +41,7 @@ function App() {
       </div>
       <Counter />
       <FilteredList />
+      <RegistrationForm />
     </div>
   );
 }

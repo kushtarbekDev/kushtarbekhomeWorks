@@ -29,6 +29,7 @@ export const FilteredList = () => {
     <div>
       <h2>Список пользователей</h2>
       <input
+        className="inputs"
         type="text"
         placeholder="Фильтр по имени"
         value={filter}
